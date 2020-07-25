@@ -4,7 +4,7 @@ const hostname = () => {
     const app = window.location.hostname
 
     //https://enturmacao.netlify.app/
-    if (app === 'portal-educacional-laravel.herokuapp.com/')
+    if (app === 'portal-educacional-laravel.herokuapp.com')
         return 'https://portaleducacional.herokuapp.com/api/'
 
     return 'http://localhost:8000/api/'
