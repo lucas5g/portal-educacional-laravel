@@ -24,6 +24,7 @@ const Login = () => {
             const { status, data } = e.response
             if (status === 401) {
                 window.alert('E-mail ou Senha Inválido');
+                return
                 console.log(status, data)
             }
             window.alert('Erro no servidor');
